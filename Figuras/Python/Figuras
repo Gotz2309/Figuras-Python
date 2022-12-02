@@ -1,0 +1,21 @@
+import math
+
+#Triangulo
+def AreaTri(Base,Altura):
+     return Base * Altura /2
+
+def hipotenusaTri(Base,Altura):
+     return math.sqrt(Base**2 + Altura**2)
+
+def PerimetroTri(Base,Altura):
+     hipotenusa = hipotenusa(Base,Altura)
+     return (Base + Altura + hipotenusa)
+# Rectangulo
+def AreaRec(Base,Altura):
+     return Base * Altura
+
+def PerimetroRec(Base,Altura):
+     return Base**2 + Altura**2
+# Circulo
+def AreaCirculo(Radio)
+     return math.PI * Radio**2
